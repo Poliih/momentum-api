@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for momentum-api--ettca on 2026-10-06T17:41:12Z
+# fly.toml app configuration file generated for momentum-api--ettca on 2026-10-07T17:39:15Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -20,3 +20,4 @@ primary_region = 'gru'
   memory = '2gb'
   cpu_kind = 'shared'
   cpus = 1
+  memory_mb = 2048
